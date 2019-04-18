@@ -1,14 +1,5 @@
 
 
-variable aws_access_key {
-  type = "string"
-  default = ""
-}
-
-variable aws_secret_key {
-  type = "string"
-  default = ""
-}
 
 variable region {
   type = "string"
@@ -33,4 +24,11 @@ variable ami {
 variable environment {
   type = "string"
   default = "dv1"
+}
+
+variable key_name {
+   type = "map"
+   default = {
+     "dv1" = "s1-dv1"
+   }
 }
