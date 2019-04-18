@@ -9,3 +9,15 @@ output aws_secret_key {
 output ami {
   value = "${var.ami}"
 }
+
+output region {
+  value = "${var.region}"
+}
+
+output subnet {
+  value = "${var.subnet}"
+}
+
+output environment {
+  value = "${var.environment}"
+}  

@@ -15,7 +15,7 @@ variable region {
   default = "us-east-1"
 }
 
-variable subnet_id {
+variable subnet  {
   type = "map"
   default = {
     "dv1" = "subnet-0fe9020f18134c66e"
@@ -28,4 +28,9 @@ variable ami {
    "ubuntu" = "ami-0a313d6098716f372",
    "centos" = "to be added" 
  }
+}
+
+variable environment {
+  type = "string"
+  default = "dv1"
 }
