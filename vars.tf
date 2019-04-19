@@ -32,3 +32,10 @@ variable key_name {
      "dv1" = "s1-dv1"
    }
 }
+
+variable default_vpc {
+  type = "map"
+  default = {
+    "dv1" = "vpc-07240eb11b2ae6174"
+  }
+}

@@ -18,3 +18,6 @@ output environment {
 output key_name {
   value = "${var.key_name}"
 }
+output default_vpc {
+  value = "${var.default_vpc}"
+}
